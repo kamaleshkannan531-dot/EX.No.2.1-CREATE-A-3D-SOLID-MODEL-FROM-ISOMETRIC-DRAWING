@@ -1,76 +1,79 @@
-# EX.No.2.1  CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date:
+# Ex. No. 2.1 — Creation of a 3D Solid Model from an Isometric Drawing
 
-## AIM
-To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
+![CAD Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+![Domain](https://img.shields.io/badge/Domain-CAD%20%2F%203D%20Modeling-blue?style=flat-square)
+![Software](https://img.shields.io/badge/Software-AutoCAD%20%2F%20SolidWorks%20%2F%20Creo-orange?style=flat-square)
 
-## REQUIREMENTS
-1. Autodesk fusion 360
-2. Windows 10
-3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
-4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
+---
 
-## PROCEDURE
+## 👨‍🎓 Student Details
+* **Name:** [V KAMALESH KANNAN]
+* **Register Number:** [26011247]
+* **Department:** [COMPUTER SCIENCE ENGINEERING]
+* **Course Code & Title:** 19AI302 — Computer Aided Design Lab
 
- ### STEP-1:  Start the sketch command
+---
 
-   Select Sketch > Create Sketch.
+## 🎯 Aim
+To construct an accurate 3D solid model from the given 2D isometric drawing specifications and dimensions using CAD software tools.
 
- ### STEP-2:  Select the Sketch Plane
+---
 
-   Select the Front (XZ) Plane
+## 💻 System & Software Requirements
+- **Operating System:** Windows 10/11 (64-bit)
+- **CAD Software:** AutoCAD 3D / Autodesk Fusion 360 / SolidWorks / Creo Parametric
+- **RAM:** Minimum 8 GB
+- **Display Resolution:** 1920 × 1080 with True Color
 
-### STEP-3: Create a Rectangle 
+---
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
+## 🛠️ Key Commands & Modeling Features Used
 
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
+| Command / Tool | Short-key / Icon | Function |
+| :--- | :--- | :--- |
+| **UNITS / LIMITS** | `UN` / `LIMITS` | Configures system units (mm) and defines the drawing boundary limits. |
+| **POLYLINE** | `PL` | Constructs closed 2D profiles to prepare for extrusion. |
+| **EXTRUDE** | `EXT` | Converts 2D planar profiles into 3D solid features along a specified height/axis. |
+| **PRESSPULL** | `Ctrl + Shift + E` | Dynamically modifies bounded areas into 3D geometry. |
+| **BOOLEAN (UNION / SUBTRACT)** | `UNI` / `SU` | Joins components together or carves cavities/holes out of the main solid. |
+| **FILLET / CHAMFER EDGE** | `SOLIDEDIT` | Adds rounded or beveled transitions along specified edges. |
+| **VIEW CUBE** | `SE Isometric` | Changes camera angle between orthographic planes and 3D isometric perspectives. |
 
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
+---
 
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
+## 📋 Procedure
 
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+1. **Workspace Setup:**
+   - Launch CAD software and switch the workspace to **3D Modeling**.
+   - Set drawing units to **Millimeters (`mm`)** and decimal precision to `0.00`.
+   - Adjust drawing limits and run `ZOOM > ALL`.
 
-## INPUT
-![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
+2. **2D Base Profile Construction:**
+   - Orient the view to the appropriate reference plane (Top, Front, or Right).
+   - Draw the foundational geometry using `LINE`, `POLYLINE`, `CIRCLE`, and `TRIM` according to the dimensions given in the problem statement.
+   - Ensure all sketches form closed loops (`REGION` or `JOIN`).
 
-## OUTPUT
+3. **Solid Feature Generation:**
+   - Use the `EXTRUDE` or `PRESSPULL` command to generate base 3D volume.
+   - For internal slots, holes, or steps, sketch auxiliary profiles on the faces and perform `SUBTRACT` operations.
 
-## RESULT: 
- Thus, the 3D model is created from given isometric drawing.
+4. **Finishing & Verification:**
+   - Apply fillets and chamfers as specified in the blueprint.
+   - Switch the visual style from **2D Wireframe** to **Conceptual / Shaded with Edges**.
+   - Verify dimensions and mass properties against the original drawing.
+
+---
+
+## 🖼️ Input Blueprint vs. 3D Model Output
+
+| Input Isometric Drawing | Final 3D Solid Model |
+| :---: | :---: |
+| ![Isometric Input](<img width="680" height="563" alt="image" src="https://github.com/user-attachments/assets/771bde52-903e-49bf-93bf-270b008fecb6" />
+) | ![3D Output](
+) |
+## DRAWING:
+<img width="1057" height="752" alt="Screenshot 2026-11-10 184329" src="https://github.com/user-attachments/assets/915316c9-b0bd-40e6-99f8-f0dee95d7875" />
+
+
+## 📌 Result
+The 3D solid model was successfully created from the given isometric drawing following all dimensional tolerances and geometric constraints.
