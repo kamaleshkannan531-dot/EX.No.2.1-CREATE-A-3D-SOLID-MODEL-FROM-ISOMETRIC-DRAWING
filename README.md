@@ -69,8 +69,12 @@ To construct an accurate 3D solid model from the given 2D isometric drawing spec
 | Input Isometric Drawing | Final 3D Solid Model |
 | :---: | :---: |
 | ![Isometric Input](<img width="680" height="563" alt="image" src="https://github.com/user-attachments/assets/771bde52-903e-49bf-93bf-270b008fecb6" />
-) | ![3D Output](
-) |
+) | ![3D Output](<img width="797" height="646" alt="Screenshot 2026-11-10 184628" src="https://github.com/user-attachments/assets/826c0ed0-654a-4e70-a08b
+240bfc6244eb" />) |
+## OUTPUT:
+<img width="797" height="646" alt="Screenshot 2026-11-10 184628" src="https://github.com/user-attachments/assets/3903f119-f3e2-4f4e-bdbb-974fce99689d" />
+
+
 ## DRAWING:
 <img width="1057" height="752" alt="Screenshot 2026-11-10 184329" src="https://github.com/user-attachments/assets/915316c9-b0bd-40e6-99f8-f0dee95d7875" />
 
